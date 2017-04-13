@@ -3,6 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/* background gradient colors: light overlay */
+/* icon gradient colors */
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -151,11 +153,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #5a00b4;
+  background: url("../img/shattered.png"), #330066;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #5a00b4, #4712ff);
+  background: url("../img/shattered.png"), -webkit-linear-gradient(to left, #330066, #4712ff);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #5a00b4, #4712ff);
+  background: url("../img/shattered.png"), linear-gradient(to left, #330066, #4712ff);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -284,8 +286,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #5a00b4, #4712ff);
-  background: linear-gradient(to left, #5a00b4, #4712ff);
+  background: -webkit-linear-gradient(to left, #614682, #6645de);
+  background: linear-gradient(to left, #614682, #6645de);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -447,4 +449,13 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+h1.inkwell-logo {
+  font-family: 'Patua One', cursive;
+  margin: 0;
+  padding: 0;
+  line-height: 85%;
+}
+a.navbar-inkwell {
+  padding-top: 10px !important;
 }
