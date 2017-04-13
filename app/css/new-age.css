@@ -395,9 +395,9 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #d2b9ea;
-  background: -webkit-linear-gradient(#d2b9ea, #c5a5e4);
-  background: linear-gradient(#d2b9ea, #c5a5e4);
+  background: #fcf4b2;
+  background: -webkit-linear-gradient(#fcf4b2, #fbf099);
+  background: linear-gradient(#fcf4b2, #fbf099);
 }
 .text-primary {
   color: #d2b9ea;
@@ -455,6 +455,10 @@ h1.inkwell-logo {
   margin: 0;
   padding: 0;
   line-height: 85%;
+}
+p.dark-text,
+h2.dark-text {
+  color: black !important;
 }
 a.navbar-inkwell {
   padding-top: 10px !important;

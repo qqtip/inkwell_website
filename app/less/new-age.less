@@ -392,9 +392,9 @@ footer {
 // Bootstrap Overrides
 
 .bg-primary {
-    background: @theme-primary;
-    background: -webkit-linear-gradient(@theme-primary , darken(@theme-primary, 5%));
-    background: linear-gradient(@theme-primary , darken(@theme-primary, 5%));
+    background: @bg-primary;
+    background: -webkit-linear-gradient(@bg-primary , darken(@bg-primary, 5%));
+    background: linear-gradient(@bg-primary , darken(@bg-primary, 5%));
 }
 
 .text-primary {
@@ -468,6 +468,11 @@ h1.inkwell-logo {
     padding: 0;
 
     line-height: 85%;
+}
+
+p.dark-text,
+h2.dark-text {
+    color: black !important;
 }
 
 a.navbar-inkwell {
