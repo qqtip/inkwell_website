@@ -466,3 +466,26 @@ h2.dark-text {
 a.navbar-inkwell {
   padding-top: 10px !important;
 }
+div.email-link {
+  margin: auto;
+  max-width: 80px;
+  min-height: 80px;
+}
+div.email-link a:hover,
+div.email-link a:focus,
+div.email-link a:active,
+div.email-link a.active {
+  text-decoration: none;
+}
+div.email-link div.icon-bg {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  background-color: #614682;
+}
+div.email-link i.email-icon {
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  line-height: 80px;
+}
