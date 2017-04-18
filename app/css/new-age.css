@@ -456,6 +456,9 @@ h1.inkwell-logo {
   padding: 0;
   line-height: 85%;
 }
+img.badge-link-windows {
+  border-radius: 10px;
+}
 p.dark-text,
 h2.dark-text {
   color: black !important;
