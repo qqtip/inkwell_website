@@ -450,6 +450,22 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+section.privacy {
+  padding: 100px 0;
+  position: relative;
+}
+section.privacy ul {
+  color: black;
+}
+section.privacy h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+@media (min-width: 768px) {
+  section.privacy h2 {
+    font-size: 70px;
+  }
+}
 h1.inkwell-logo {
   font-family: 'Patua One', cursive;
   margin: 0;

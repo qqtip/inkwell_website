@@ -161,9 +161,6 @@ header {
                     margin-bottom: 25px;
                 }
             }
-            .header-content-text {
-                line-height: 
-            }
         }
     }
     .device-container {
@@ -460,6 +457,27 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @gray-darker;
+}
+
+// Privacy Policy
+
+section.privacy {
+    padding: 100px 0;
+    position: relative;
+
+    ul {
+        color: black;
+    }
+
+    h2 {
+        margin-top: 0;
+        font-size: 50px;
+    }
+    @media(min-width: 768px) {
+        h2 {
+            font-size: 70px;
+        }
+    }
 }
 
 // Singular Components
