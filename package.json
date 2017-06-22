@@ -2,11 +2,11 @@
   "name": "inkwell-website",
   "title": "Inkwell Marketing Website",
   "version": "1.1.0",
-  "homepage": "qqtip.github.io/inkwell_website",
+  "homepage": "quan.github.io/inkwell_website",
   "author": "Quan Tran",
   "license": {
     "type": "MIT",
-    "url": "https://qqtip.github.io/inkwell_website/LICENSE"
+    "url": "https://quan.github.io/inkwell_website/LICENSE"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/qqtip/inkwell_website.git"
+    "url": "https://github.com/quan/inkwell_website.git"
   },
   "dependencies": {
     "express": "^4.15.2",
